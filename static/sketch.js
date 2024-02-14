@@ -80,4 +80,6 @@ function gotResult(error, results) {
     Bin=color(255,0,0)}
     if (label=="Altoids"){
     Bin=color(0,0,255)}
+    if (label=="No Object"){
+    Bin=color(255)}
 }
